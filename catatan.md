@@ -15,3 +15,7 @@ browse project di: http://localhost:4200/
 
 mengehentikan project angular:
 Control + C
+
+menginstall bulma (css):
+
+> npm install bulma
