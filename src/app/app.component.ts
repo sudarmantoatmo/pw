@@ -3,16 +3,18 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
+  includeLetters = false;
   password = '';
 
-  onButtonClick(){
-    this.password = 'MY PASSWORD!!!';
+  onChangeUseLetters() {
+    this.includeLetters = !this.includeLetters;
   }
 
-  getName() {
-    return 'Alex';
+  onButtonClick() {
+    console.log(this.includeLetters);
+    this.password = 'MY PASSWORD!!!';
   }
 }
