@@ -35,3 +35,8 @@ Which scope do you want to deploy to: sudarmantoatmo
 Link to existing project: n
 What’s your project’s name: pw
 In which directory is your code located: ./
+
+karena gagal, maka buka https://vercel.com/
+Add New>project
+kemudian import projeck github yang mau di deploy
+
