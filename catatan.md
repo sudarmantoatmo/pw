@@ -19,3 +19,19 @@ Control + C
 menginstall bulma (css):
 
 > npm install bulma
+
+
+menginstall now:
+> npm install -g now
+login ke now:
+> now login
+
+masukkan email, kemudian verifikasi email.
+
+jalankan now:
+> now
+Set up and deploy: y
+Which scope do you want to deploy to: sudarmantoatmo
+Link to existing project: n
+What’s your project’s name: pw
+In which directory is your code located: ./
